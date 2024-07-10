@@ -23,16 +23,21 @@ Write the specification for a software module on the API service (backend applic
 
 <!-- specification Document -->
 
-1. FLOW
-   ![Flow](/Problem-6/flow.png)
-2. USE CASE
-   | USE CASE | SCORE BOARD |
-   | ------------- |:-------------|
-   | name | Update user score board |
-   | description | Upon completion the action will dispatch an API call to the application server to update the score. |
-   | actor | user |
-   | priority | medium |
-   | pre-condition | user logged in and connect to socket server |
-   | basic flow | 1. do something \n 2. system update score board \n 3. update successfully |
-   | alternate flow | user not logged in |
-   | exception flow | update fail and return message |
+### FLOW
+
+![Flow](/Problem-6/flow.png)
+
+### USE CASE
+
+| USE CASE       | SCORE BOARD                                                                                         |
+| -------------- | :-------------------------------------------------------------------------------------------------- |
+| name           | Update user score board                                                                             |
+| description    | Upon completion the action will dispatch an API call to the application server to update the score. |
+| actor          | user                                                                                                |
+| priority       | medium                                                                                              |
+| pre-condition  | user logged in and connect to socket server                                                         |
+| basic flow     | 1. do something                                                                                     |
+| basic flow     | 2. system update score board                                                                        |
+| basic flow     | 3. update successfully                                                                              |
+| alternate flow | user not logged in                                                                                  |
+| exception flow | update fail and return message                                                                      |
