@@ -14,7 +14,7 @@ _Assuming this input will always produce a result lesser than `Number.MAX_SAFE_I
 
 <!-- HOW TO RUN -->
 
-REQUIRE: nodejs, typescript global packages
-STEP 1: npm i -g typescript ts-node
-STEP 2: cd /problem 4
-STEP 3: ts-node main.ts
+0. REQUIRE: nodejs, typescript global packages
+1. STEP 1: npm i -g typescript ts-node
+2. STEP 2: cd /problem 4
+3. STEP 3: ts-node main.ts
