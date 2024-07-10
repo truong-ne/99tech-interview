@@ -37,7 +37,7 @@ Write the specification for a software module on the API service (backend applic
 | priority       | medium                                                                                              |
 | pre-condition  | user logged in and connect to socket server                                                         |
 | basic flow     | 1. do something                                                                                     |
-| basic flow     | 2. system update score board                                                                        |
-| basic flow     | 3. update successfully                                                                              |
+|                | 2. system update score board                                                                        |
+|                | 3. update successfully                                                                              |
 | alternate flow | user not logged in                                                                                  |
 | exception flow | update fail and return message                                                                      |
